@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //input
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a number : ");
         String str = sc.nextLine();
