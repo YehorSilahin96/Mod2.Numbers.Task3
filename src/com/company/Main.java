@@ -12,20 +12,20 @@ public class Main {
         System.out.print("Input a number : ");
         String str = sc.nextLine();
 
-        int l = str.length();
-        int c = 0;
+        int length = str.length();
+        int counter = 0;
         char chr;
 
-        for(int i=1;i<l;i++)
+        for(int i=1;i<length;i++)
         {
             chr = str.charAt(i);
             if(chr=='0')
-                c++;
+                counter++;
         }
 
-        char f = str.charAt(0);
+        char first = str.charAt(0);
 
-        if(c>0 && f!='0')
+        if(counter>0 && first !='0')
             System.out.println("Duck number");
 
         else
